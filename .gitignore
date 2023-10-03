@@ -1,0 +1,5 @@
+## Ignore Files for BDD 
+.idea
+
+# Ignore Excel temporary files
+~$*.docx
