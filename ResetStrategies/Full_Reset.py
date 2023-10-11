@@ -4,7 +4,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.support.wait import WebDriverWait
 import time
 
-## Full Reset (Changed the Chrome Path as it is a Default Application) Will Uninstall and Reinstall the Apk File.
+## Full ResetStrategies (Changed the Chrome Path as it is a Default Application) Will Uninstall and Reinstall the Apk File.
 desired_caps = {
   "deviceName": "Android Emulator",
   "platformName": "Android",

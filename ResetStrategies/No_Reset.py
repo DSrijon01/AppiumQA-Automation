@@ -4,7 +4,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.support.wait import WebDriverWait
 import time
 
-## Remove the no reset to instigate Default Reset
+## Remove the no reset to instigate Default ResetStrategies
 desired_caps = {
     'platformName': 'Android',
     'platformVersion': '11',
