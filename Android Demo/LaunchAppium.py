@@ -20,7 +20,7 @@ appium_service.start()
 
 
 options = UiAutomator2Options().load_capabilities(desired_cap)
-driver = webdriver.Remote("http://localhost:4723/wd/hub", options=options)
+driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", options=options)
 
 ## Click on the Enter Some Value button
 element_id = driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/EnterValue")
