@@ -20,3 +20,9 @@ Appium Configuration for Demo APK
   "app": "C:\\Users\\BS726\\Desktop\\AppiumQA-Automation\\Demo APK\\Android_Demo_App.apk",
   "appWaitDuration": "20000"
 }
+
+
+Appium Port Kill Command for port 4723
+
+netstat -ano | findstr :4723
+taskkill /F /PID <PID>
