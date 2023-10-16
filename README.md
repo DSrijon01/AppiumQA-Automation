@@ -173,9 +173,6 @@ After this, changes will be merged.
 - Port Kill 4723
 - Desire Capabilities appPackage || appWaitActivity
 - Find Element By Class Name
-- Spec Pattern for .feature and .cy.js extension recognition (cypress.config.js --> specPattern: "**/*.{feature,cy.js}")
-- onBeforeLoad for Session Token initialization for Login
-- Neat CSV Import version dependency for CSV Assertion
 
 
 ## :question: FAQ
@@ -183,8 +180,8 @@ You can optionally add a FAQ section about the project.
 
 ##  :page_facing_up: Resources
 
-- For BDD integration there is a Plugin Dependency Please Go Through the documentation if any changes occurs in the Future
-[Badeball_Cypress_Cucumber_Preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor/tree/master)
+- For Android Key Codes
+[ADB_Shell_Input_Events ](https://stackoverflow.com/questions/7789826/adb-shell-input-events)
 
 - For CSV file verification and read write  there is a Package Dependency Please Go Through the documentation if any changes occurs in the Future
 [Read_CSV_Data_In_Cypress](https://medium.com/@anshita.bhasin/read-csv-data-in-cypress-57b1792c6945) 
