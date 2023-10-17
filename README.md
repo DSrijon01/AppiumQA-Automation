@@ -183,8 +183,8 @@ You can optionally add a FAQ section about the project.
 - For Android Key Codes
 [ADB_Shell_Input_Events ](https://stackoverflow.com/questions/7789826/adb-shell-input-events)
 
-- For CSV file verification and read write  there is a Package Dependency Please Go Through the documentation if any changes occurs in the Future
-[Read_CSV_Data_In_Cypress](https://medium.com/@anshita.bhasin/read-csv-data-in-cypress-57b1792c6945) 
+- List of Selenium Exceptions
+[Exceptions_in_Selenium](https://www.selenium.dev/selenium/docs/api/py/common/selenium.common.exceptions.html) 
 
 - For Excel file verification and read write  there is a Package Dependency Please Go Through the documentation if any changes occurs in the Future
 [Read_CSV_Data_In_Cypress](https://www.npmjs.com/package/convert-excel-to-json) 
