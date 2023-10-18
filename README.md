@@ -36,8 +36,8 @@ In order to diversify machine language and automation framework I have initiated
 Write about how to use this project.
 
 ###  :electric_plug: Installation
-- Steps on desired capablities to invoke the APK applications.
-###  :package: Desired Capablities for Demo Application
+- Steps on desired capabilities to invoke the APK applications.
+###  :package: Desired Capabilities for Demo Application
 
 - Android Demo
 ```
@@ -72,6 +72,19 @@ netstat -ano | findstr :4723
 - Port Kill
 ```
 taskkill /F /PID <PID>
+```
+###  :package: Chrome Responsive Automation
+- Chrome Responsive Automation
+```
+{
+  "deviceName": "Android Emulator",
+  "platformName": "Android",
+  "appPackage": "com.code2lead.kwad",
+  "appActivity": "com.code2lead.kwad.MainActivity",
+  "app": "C:\\Users\\BS726\\Desktop\\AppiumQA-Automation\\Demo APK\\Android_Demo_App.apk",
+  "appWaitDuration": "20000"
+}
+
 ```
 ##  :wrench: Development
 If you want to colab please read through. 
@@ -176,7 +189,7 @@ After this, changes will be merged.
 
 
 ## :question: FAQ
-You can optionally add a FAQ section about the project.
+- Use a different Capabilities for Responsive Automation
 
 ##  :page_facing_up: Resources
 
@@ -186,19 +199,18 @@ You can optionally add a FAQ section about the project.
 - List of Selenium Exceptions
 [Exceptions_in_Selenium](https://www.selenium.dev/selenium/docs/api/py/common/selenium.common.exceptions.html) 
 
-- For Excel file verification and read write  there is a Package Dependency Please Go Through the documentation if any changes occurs in the Future
-[Read_CSV_Data_In_Cypress](https://www.npmjs.com/package/convert-excel-to-json) 
+- For Responsive Testing with Chrome Driver
+[Chrome_Devices](chrome://inspect/#devices) 
 
-- For SQLDatabase data fetching and verifying there is a Plugin Dependency Please Go Through the documentation if any changes occurs in the Future
-[Cypress_SQL_Server](https://www.npmjs.com/package/cypress-sql-server) 
+- For Chrome Drivers
+[Chrome_Drivers](https://chromedriver.chromium.org/downloads) 
 
 
 ##  :camera: Gallery
-Pictures of your project.
+![img.png](img.png)
 
 ## :star2: Credit/Acknowledgment
-Rahul Shetty From QA Academy
+Sujith Reddy
 
 ##  :lock: License
-ISC
 MIT
