@@ -1,0 +1,9 @@
+19/10/23 03:46:18 PM Thursday - <module> - INFO: Accepted Terms and Conditions
+19/10/23 03:46:20 PM Thursday - <module> - INFO: Clicked 'No Thanks'
+19/10/23 03:46:27 PM Thursday - <module> - INFO: Clicked on Search Bar
+19/10/23 03:46:29 PM Thursday - <module> - INFO: Identified URL Bar
+19/10/23 03:46:29 PM Thursday - <module> - INFO: Sent URL
+19/10/23 03:46:30 PM Thursday - <module> - INFO: Clicked on Search Bar
+19/10/23 03:46:36 PM Thursday - <module> - DEBUG: Fetching App Context
+19/10/23 03:46:40 PM Thursday - <module> - DEBUG: Switched to WebView Context Successfully
+19/10/23 03:46:47 PM Thursday - <module> - DEBUG: Switched to Native App Context Successfully

@@ -1,0 +1,5 @@
+19/10/23 03:06:45 PM Thursday - CustomLoggerDemo - CRITICAL : This is a critical
+19/10/23 03:06:45 PM Thursday - CustomLoggerDemo - ERROR : This is a error msg
+19/10/23 03:06:45 PM Thursday - CustomLoggerDemo - WARNING : Warn msg
+19/10/23 03:06:45 PM Thursday - CustomLoggerDemo - INFO : Info msg
+19/10/23 03:06:45 PM Thursday - CustomLoggerDemo - DEBUG : Debug msg
