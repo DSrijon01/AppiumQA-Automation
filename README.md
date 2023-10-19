@@ -86,6 +86,22 @@ taskkill /F /PID <PID>
 }
 
 ```
+###  :package: Pytest Installation
+- Installing Pytest
+```
+pip3 install pytest
+```
+###  :package: Pytest Run Order Installation
+- Installing Pytest Run Order
+```
+pip3 install pytest-ordering
+```
+###  :package: Pytest Re-Run Failures
+- Installing Pytest Re-Rerun Failures
+```
+pip3 install pytest-rerunfailures
+```
+
 ##  :wrench: Development
 If you want to colab please read through. 
 
@@ -188,8 +204,9 @@ After this, changes will be merged.
 - Find Element By Class Name
 
 
-## :question: FAQ
+## :question: FYI
 - Use a different Capabilities for Responsive Automation
+- Use test_Example.py Naming Conventions inorder to run pytest based test scripts
 
 ##  :page_facing_up: Resources
 
@@ -204,6 +221,9 @@ After this, changes will be merged.
 
 - For Chrome Drivers
 [Chrome_Drivers](https://chromedriver.chromium.org/downloads) 
+
+- RunOrder Marking Documentation
+[Marking](https://docs.pytest.org/en/stable/how-to/mark.html)
 
 
 ##  :camera: Gallery
