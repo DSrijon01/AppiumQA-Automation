@@ -91,8 +91,8 @@ taskkill /F /PID <PID>
 ```
 pip3 install pytest
 ```
-###  :package: Pytest Run Order Installation
-- Installing Pytest Run Order
+###  :exclamation: Pytest Run Order Installation
+- Installing Pytest Run Order -- Deprecated Package not maintained
 ```
 pip3 install pytest-ordering
 ```
@@ -100,6 +100,12 @@ pip3 install pytest-ordering
 - Installing Pytest Re-Rerun Failures
 ```
 pip3 install pytest-rerunfailures
+```
+###  :package: Pytest Re-Run Terminal Run Command
+- Run your Test Script From the Terminal 
+```
+python -m pytest test_Pytest_rerun.py
+
 ```
 
 ##  :wrench: Development
@@ -202,11 +208,13 @@ After this, changes will be merged.
 - Port Kill 4723
 - Desire Capabilities appPackage || appWaitActivity
 - Find Element By Class Name
-
+- Mark Test Run Ordering using pytest-ordering package (Deprecated)
+- Pytest Rerun Command python -m pytest test_Pytest_rerun.py
 
 ## :question: FYI
 - Use a different Capabilities for Responsive Automation
 - Use test_Example.py Naming Conventions inorder to run pytest based test scripts
+- Use the -m path command given in the [Installation Section] or [Issues I Faced Section] to use it for pytest reruns
 
 ##  :page_facing_up: Resources
 
