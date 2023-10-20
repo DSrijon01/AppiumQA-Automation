@@ -17,5 +17,6 @@ def test_runAppiumTest():
     options = UiAutomator2Options().load_capabilities(desired_cap)
     driver = webdriver.Remote("http://localhost:4723/wd/hub", options=options)
 
+    ## Wrong Value Entered for test rerun demonstration
     ele_id = driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/EnterVal")
     ele_id.click()

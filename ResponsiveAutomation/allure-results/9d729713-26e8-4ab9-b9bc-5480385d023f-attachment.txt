@@ -1,0 +1,2 @@
+[35mDEBUG   [0m <module>:test_Pytest_Responsive.py:37 Fetching App Context
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:55 Accepted Terms and Conditions

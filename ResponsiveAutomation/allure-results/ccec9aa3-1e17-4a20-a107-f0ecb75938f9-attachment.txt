@@ -1,0 +1,3 @@
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:77 Identified URL Bar
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:79 Sent URL
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:82 Clicked on Search Bar

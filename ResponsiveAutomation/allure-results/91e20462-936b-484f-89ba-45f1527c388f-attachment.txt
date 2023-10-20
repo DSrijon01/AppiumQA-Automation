@@ -1,0 +1,1 @@
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:62 Clicked 'No Thanks'

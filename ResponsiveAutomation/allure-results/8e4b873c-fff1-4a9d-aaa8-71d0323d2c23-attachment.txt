@@ -1,0 +1,9 @@
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:44 Accepted Terms and Conditions
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:49 Clicked 'No Thanks'
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:54 Clicked on Search Bar
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:59 Identified URL Bar
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:63 Sent URL
+[32mINFO    [0m <module>:test_Pytest_Responsive.py:66 Clicked on Search Bar
+[35mDEBUG   [0m <module>:test_Pytest_Responsive.py:74 Fetching App Context
+[35mDEBUG   [0m <module>:test_Pytest_Responsive.py:80 Switched to WebView Context Successfully
+[35mDEBUG   [0m <module>:test_Pytest_Responsive.py:97 Switched to Native App Context Successfully
