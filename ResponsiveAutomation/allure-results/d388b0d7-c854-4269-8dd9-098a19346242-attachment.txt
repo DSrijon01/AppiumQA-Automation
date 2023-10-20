@@ -1,1 +1,0 @@
-[35mDEBUG   [0m <module>:test_Pytest_Responsive.py:109 Switched to Native App Context Successfully

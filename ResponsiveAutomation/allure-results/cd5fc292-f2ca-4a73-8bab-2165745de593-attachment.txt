@@ -1,1 +1,0 @@
-[35mDEBUG   [0m <module>:test_Pytest_Responsive.py:34 Fetching App Context

@@ -1,1 +1,1 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[{"name":"Feature Name","children":[{"name":"Test Script Title","uid":"46775b4d8f08cc3b","parentUid":"0818c050db81e3a55db5ee299df8ae15","status":"passed","time":{"start":1697792148432,"stop":1697792215020,"duration":66588},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"0818c050db81e3a55db5ee299df8ae15"}]}
+{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[]}
