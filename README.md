@@ -107,6 +107,30 @@ pip3 install pytest-rerunfailures
 python -m pytest test_Pytest_rerun.py
 
 ```
+###  :package: Allure Report Installation
+- Installation of Allure Report
+```
+pip install pytest-allure
+
+```
+###  :package: Generating Allure Result
+- Allure Result Generation
+```
+python -m pytest test_Pytest_Responsive.py --alluredir allure-results 
+
+``` 
+###  :package: Generating Allure Report
+- Allure HTML Report Generation
+```
+allure generate allure-report -o allure-report-html
+
+```
+###  :package: Starting Allure Server to Generate Report
+- Allure Report Serving
+```
+allure serve allure-results
+
+```
 
 ##  :wrench: Development
 If you want to colab please read through. 
