@@ -243,6 +243,7 @@ After this, changes will be merged.
 - Mark Test Run Ordering using pytest-ordering package (Deprecated)
 - Pytest Rerun Command python -m pytest test_Pytest_rerun.py
 - Webview Appview Context Switching with Pytest refer to test_Error_Handling.py file
+- Start_Activity() depreciated (Dependency with appium Python Client package)
 
 ## :question: FYI
 - Use a different Capabilities for Responsive Automation
@@ -265,6 +266,10 @@ After this, changes will be merged.
 
 - RunOrder Marking Documentation
 [Marking](https://docs.pytest.org/en/stable/how-to/mark.html)
+
+- Appium Python Client Documentation
+[Start_Activity](https://pypi.org/project/Appium-Python-Client/)
+
 
 
 ##  :camera: Gallery

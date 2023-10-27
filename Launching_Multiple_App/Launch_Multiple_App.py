@@ -27,7 +27,7 @@ driver = webdriver.Remote("http://localhost:4723/wd/hub", options=options)
 
 time.sleep(5)
 
-## Start Emi Calculator
+## Start Emi Calculator - Depricated
 driver.start_activity("com.continuum.emi.calculator","com.finance.emicalci.activity.Splash_screnn")
 
 time.sleep(5)
