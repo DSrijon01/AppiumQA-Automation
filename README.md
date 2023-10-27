@@ -131,6 +131,14 @@ allure generate allure-report -o allure-report-html
 allure serve allure-results
 
 ```
+###  :package: Installing Requirements 
+- Installing All Available Requirements
+```
+pip3 install -r ...\RequirementSetUp.txt
+
+```
+pip3 install -r C:\Users\BS726\Desktop\AppiumQA-Automation\RequirementSetUp.txt
+
 
 ##  :wrench: Development
 If you want to colab please read through. 
@@ -234,6 +242,7 @@ After this, changes will be merged.
 - Find Element By Class Name
 - Mark Test Run Ordering using pytest-ordering package (Deprecated)
 - Pytest Rerun Command python -m pytest test_Pytest_rerun.py
+- Webview Appview Context Switching with Pytest refer to test_Error_Handling.py file
 
 ## :question: FYI
 - Use a different Capabilities for Responsive Automation

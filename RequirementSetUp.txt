@@ -1,0 +1,7 @@
+selenium
+pytest
+pytest-ordering
+allure-pytest
+behave
+allure-behave
+
