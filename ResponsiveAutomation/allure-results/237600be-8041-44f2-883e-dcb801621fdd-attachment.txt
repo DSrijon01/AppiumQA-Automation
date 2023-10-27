@@ -1,0 +1,3 @@
+[32mINFO    [0m <module>:test_Error_Handling.py:83 Identified URL Bar
+[32mINFO    [0m <module>:test_Error_Handling.py:85 Sent URL
+[32mINFO    [0m <module>:test_Error_Handling.py:88 Clicked on Search Bar

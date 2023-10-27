@@ -1,0 +1,2 @@
+[35mDEBUG   [0m <module>:test_Error_Handling.py:40 Fetching App Context
+[32mINFO    [0m <module>:test_Error_Handling.py:59 Accepted Terms and Conditions

@@ -1,8 +1,7 @@
-20/10/23 06:54:06 PM Friday - <module> - DEBUG: Fetching App Context
-20/10/23 06:54:07 PM Friday - <module> - INFO: Accepted Terms and Conditions
-20/10/23 06:54:09 PM Friday - <module> - INFO: Clicked 'No Thanks'
-20/10/23 06:54:14 PM Friday - <module> - INFO: Clicked on Search Bar
-20/10/23 06:54:15 PM Friday - <module> - INFO: Identified URL Bar
-20/10/23 06:54:15 PM Friday - <module> - INFO: Sent URL
-20/10/23 06:54:16 PM Friday - <module> - INFO: Clicked on Search Bar
-20/10/23 06:54:58 PM Friday - <module> - DEBUG: Switched to Native App Context Successfully
+27/10/23 01:29:35 PM Friday - <module> - INFO: Fetching App Context
+27/10/23 01:29:36 PM Friday - <module> - INFO: Accepted Terms and Conditions
+27/10/23 01:29:38 PM Friday - <module> - INFO: Clicked 'No Thanks'
+27/10/23 01:29:43 PM Friday - <module> - INFO: Clicked on Search Bar
+27/10/23 01:29:45 PM Friday - <module> - INFO: Identified URL Bar
+27/10/23 01:29:46 PM Friday - <module> - INFO: Sent URL
+27/10/23 01:29:47 PM Friday - <module> - INFO: Clicked on Search Bar

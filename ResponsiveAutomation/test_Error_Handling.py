@@ -13,6 +13,7 @@ from CustomLogger_Responsive import customLogger
 # Create an instance of your custom logger
 logger = customLogger()
 
+
 @pytest.fixture(scope="module")
 def driver_setup():
     # Shared setup code
@@ -37,12 +38,18 @@ def driver_setup():
     appContexts = driver.contexts
     print("App Contexts: ", appContexts)
     logger.info("Fetching App Context")
+    ## Switching to Webview context
+    for appType in appContexts:
+        if appType == "WEBVIEW_chrome":
+            driver.switch_to.context(appType)
+            logger.info("Switched to WebView Context Successfully")
 
     # Yield the driver to the test functions
     yield driver, wait, appContexts
 
 
 import allure
+
 
 @allure.title("Test 01")
 @allure.description("Terms and Condition")
@@ -85,41 +92,50 @@ def test_send_keys_04(driver_setup):
     driver.press_keycode(66)
     logger.info("Clicked on Search Bar")
 
-def test_interacting_webview_05(driver_setup):
+
+
+
+
+
+
+
+def scroll_to_element(driver, element):
+    try:
+        # Execute JavaScript to scroll to the element
+        driver.execute_script("arguments[0].scrollIntoView(true);", element)
+    except Exception as e:
+        print(f"Error while scrolling: {e}")
+
+def test_interacting_webview_06(driver_setup):
     driver, wait, appContexts = driver_setup
-    # Define the target webview context name
-    target_webview_context = "WEBVIEW_chrome"
-    # Wait for the webview context to be available
-    wait.until(lambda x: target_webview_context in x.contexts)
-    # Switch to Context
-    driver.switch_to.context(target_webview_context)
-    ## Find the Expected Element
+    # Step 6: Switch to Webview Context
     title_button = wait.until(lambda x: x.find_element(AppiumBy.XPATH, "//*[@name='title']"))
+
+    if not title_button.is_displayed():
+        # If the element is not displayed, scroll to it
+        scroll_to_element(driver, title_button)
+
     title_button.click()
     title_button.send_keys("Srijon")
-    ## Save Draft
-    save_draft = wait.until(lambda x: x.find_element(AppiumBy.XPATH,
-                                                     "//button[@class='btn btn-primary' and contains(text(), 'Save Draft')]"))
+
+    # Save Draft
+    save_draft = wait.until(lambda x: x.find_element(AppiumBy.XPATH, "//button[@class='btn btn-primary' and contains(text(), 'Save Draft')]"))
     save_draft.click()
 
-def test_interacting_appview_06(driver_setup):
-    driver, wait, appContexts = driver_setup
-    ## Step 6: Interacting with Appview
-    # Step 6: Switch to NATIVE APP View Context
-    # Define the target webview context name
-    target_appview_context = "NATIVE_APP"
-    # Wait for the webview context to be available
-    wait.until(lambda x: target_appview_context in x.contexts)
-    # Switch to Context
-    driver.switch_to.context(target_appview_context)
-    ## Interacting with the Webapp inside a browser with App Context
-    dashboard_button = wait.until(lambda x: x.find_element(AppiumBy.XPATH, "(//android.view.View[@content-desc='#'])[1]/android.view.View"))
-    dashboard_button.click()
+
+# def test_interacting_webview_06(driver_setup):
+#     driver, wait, appContexts = driver_setup
+#     ## Step 6: Switch to Webview Context
+#     title_button = wait.until(lambda x: x.find_element(AppiumBy.XPATH, "//*[@name='title']"))
+#     title_button.click()
+#     title_button.send_keys("Srijon")
+#     ## Save Draft
+#     save_draft = wait.until(lambda x: x.find_element(AppiumBy.XPATH,
+#                                                      "//button[@class='btn btn-primary' and contains(text(), 'Save Draft')]"))
+#     save_draft.click()
 
 
 
 
-if __name__ == "__main__":
-    # Run the test using pytest with Allure reporting
-    pytest.main([__file__, '--alluredir', 'allure-results'])
+
 
