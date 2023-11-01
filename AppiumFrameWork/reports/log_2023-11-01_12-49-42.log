@@ -1,0 +1,11 @@
+2023-11-01 12:50:00 - BasePage_2023-11-01_12-49-42 - INFO: Screenshot saved to path : ../screenshots/Launched App_01_11_23_12_50_00.png
+2023-11-01 12:50:01 - BasePage_2023-11-01_12-49-42 - INFO: Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:50:01 - BasePage_2023-11-01_12-49-42 - INFO: Send Text to Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:50:01 - BasePage_2023-11-01_12-49-42 - INFO: Screenshot saved to path : ../screenshots/Value is displayed_01_11_23_12_50_01.png
+2023-11-01 12:50:01 - BasePage_2023-11-01_12-49-42 - INFO: Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:50:01 - BasePage_2023-11-01_12-49-42 - INFO: Clicked on Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:50:02 - BasePage_2023-11-01_12-49-42 - INFO: Locator Type Found: text With Locator Value: Enter Name
+2023-11-01 12:50:02 - BasePage_2023-11-01_12-49-42 - INFO: Clicked on Element with Locator Type Found: text With Locator Value: Enter Name
+2023-11-01 12:50:03 - BasePage_2023-11-01_12-49-42 - INFO: Locator Type Found: text With Locator Value: Enter Name
+2023-11-01 12:50:05 - BasePage_2023-11-01_12-49-42 - INFO: Send Text to Element with Locator Type Found: text With Locator Value: Enter Name
+2023-11-01 12:50:05 - BasePage_2023-11-01_12-49-42 - INFO: Screenshot saved to path : ../screenshots/Entered text to the field_01_11_23_12_50_05.png

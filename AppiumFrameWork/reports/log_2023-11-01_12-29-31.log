@@ -1,0 +1,10 @@
+2023-11-01 12:29:46 - BasePage_2023-11-01_12-29-31 - INFO: Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:29:46 - BasePage_2023-11-01_12-29-31 - INFO: Send Text to Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:29:46 - BasePage_2023-11-01_12-29-31 - INFO: Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:29:47 - BasePage_2023-11-01_12-29-31 - INFO: Clicked on Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:29:47 - BasePage_2023-11-01_12-29-31 - INFO: Locator ValueEnter Namenot found
+2023-11-01 12:29:47 - BasePage_2023-11-01_12-29-31 - INFO: Locator Type Found: text With Locator Value: Enter Name
+2023-11-01 12:29:47 - BasePage_2023-11-01_12-29-31 - INFO: Unable to Click on Locator: textWith Locator Value:Enter Name
+2023-11-01 12:29:47 - BasePage_2023-11-01_12-29-31 - INFO: Locator ValueEnter Namenot found
+2023-11-01 12:29:47 - BasePage_2023-11-01_12-29-31 - INFO: Locator Type Found: text With Locator Value: Enter Name
+2023-11-01 12:29:47 - BasePage_2023-11-01_12-29-31 - INFO: Unable to Send Text on Locator: textWith Locator Value:Enter Name

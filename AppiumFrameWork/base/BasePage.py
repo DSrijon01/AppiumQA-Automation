@@ -2,6 +2,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selenium.common import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 import AppiumFrameWork.utilities.logger as cl
+import time
 
 class BasePage:
 
@@ -39,7 +40,7 @@ class BasePage:
             return element
 
         ## By Text
-        elif locatortype == "Text":
+        elif locatortype == "text":
             element = wait.until(lambda x: x.find_element(AppiumBy.ANDROID_UIAUTOMATOR,'text("%s")' % locatorvalue))
             return element
 
@@ -50,7 +51,7 @@ class BasePage:
 
         ## Log for troubleshooting
         else:
-            self.log.info("Locator Value" + locatorvalue + "not found")
+            self.log.info("Locator Value " + locatorvalue + " not found")
 
         return element
 
@@ -62,7 +63,7 @@ class BasePage:
             element = self.waitforElement(locatorvalue, locatortype)
             self.log.info("Locator Type Found: " + locatortype + " With Locator Value: " + locatorvalue)
         except:
-            self.log.info("Locator Type Not Found" + locatortype + "With Locator Value" + locatortype)
+            self.log.info("Locator Type Not Found " + locatortype + " With Locator Value" + locatortype)
 
         return element
 
@@ -71,12 +72,12 @@ class BasePage:
         element = None
         try:
             locatortype = locatortype.lower()
-            element = self.waitforElement(locatorvalue, locatortype)
+            element = self.getElement(locatorvalue, locatortype)
             element.click()
             self.log.info("Clicked on Element with Locator Type Found: " + locatortype + " With Locator Value: " + locatorvalue)
 
         except:
-            self.log.info("Unable to Click on Locator: " + locatortype + "With Locator Value:" + locatorvalue)
+            self.log.info("Unable to Click on Locator: " + locatortype + " With Locator Value:" + locatorvalue)
 
         return element
 
@@ -85,7 +86,7 @@ class BasePage:
         element = None
         try:
             locatortype = locatortype.lower()
-            element = self.waitforElement(locatorvalue, locatortype)
+            element = self.getElement(locatorvalue, locatortype)
             element.send_keys(text)
             self.log.info("Send Text to Element with Locator Type Found: " + locatortype + " With Locator Value: " + locatorvalue)
 
@@ -99,7 +100,7 @@ class BasePage:
         element = None
         try:
             locatortype = locatortype.lower()
-            element = self.waitforElement(locatorvalue, locatortype)
+            element = self.getElement(locatorvalue, locatortype)
             element.is_displayed()
             self.log.info("Send Text to Element with Locator Type Found: " + locatortype + " With Locator Value: " + locatorvalue)
             return True
@@ -108,3 +109,16 @@ class BasePage:
             return False
 
         return element
+
+    ## Screenshots
+    def screenShot (self, screenshotName):
+        fileName = screenshotName + "_" +(time.strftime("%d_%m_%y_%H_%M_%S"))+".png"
+        screenshotDirectory = "../screenshots/"
+        screenshotPath = screenshotDirectory + fileName
+        try:
+            self.driver.save_screenshot(screenshotPath)
+            self.log.info("Screenshot saved to path : "+ screenshotPath)
+        except:
+            self.log.info("Unable save screenshot to the path : " + screenshotPath)
+
+

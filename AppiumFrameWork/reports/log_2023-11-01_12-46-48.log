@@ -1,0 +1,11 @@
+2023-11-01 12:46:59 - BasePage_2023-11-01_12-46-48 - INFO: Screenshot saved to path : ../screenshots/Launched App_01_11_23_12_46_58.png
+2023-11-01 12:47:24 - BasePage_2023-11-01_12-46-48 - INFO: Locator Type Not Found id With Locator Valueid
+2023-11-01 12:47:24 - BasePage_2023-11-01_12-46-48 - INFO: Unable to Send Text on Locator: idWith Locator Value:com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:47:25 - BasePage_2023-11-01_12-46-48 - INFO: Screenshot saved to path : ../screenshots/Value is displayed_01_11_23_12_47_24.png
+2023-11-01 12:47:28 - BasePage_2023-11-01_12-46-48 - INFO: Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:47:29 - BasePage_2023-11-01_12-46-48 - INFO: Clicked on Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
+2023-11-01 12:47:30 - BasePage_2023-11-01_12-46-48 - INFO: Locator Type Found: text With Locator Value: Enter Name
+2023-11-01 12:48:10 - BasePage_2023-11-01_12-46-48 - INFO: Clicked on Element with Locator Type Found: text With Locator Value: Enter Name
+2023-11-01 12:48:34 - BasePage_2023-11-01_12-46-48 - INFO: Locator Type Not Found text With Locator Valuetext
+2023-11-01 12:48:34 - BasePage_2023-11-01_12-46-48 - INFO: Unable to Send Text on Locator: textWith Locator Value:Enter Name
+2023-11-01 12:48:36 - BasePage_2023-11-01_12-46-48 - INFO: Unable save screenshot to the path : ../screenshots/Entered text to the field_01_11_23_12_48_34.png
