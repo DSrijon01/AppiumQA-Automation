@@ -13,7 +13,7 @@ class ContactUsFormPage(BasePage):
         self._enterName = "android.widget.EditText" # class
         self._enterEmail = "Enter Email" # text
         self._enterAddress = "Enter Address" # text
-        self._enterMobileNumber = "Enter Mobile No" # text
+        self._enterMobileNumber = "4" # index
         self._submitButton = "SUBMIT" # text
 
     def clickContactUsForm(self):
@@ -33,7 +33,7 @@ class ContactUsFormPage(BasePage):
         self.sendText("Road 09 Dhaka",self._enterAddress,"text")
         cl.allureLogs("Entered Address")
     def enterNumber(self):
-        self.sendText("0000011111", self._enterMobileNumber, "text")
+        self.sendText("0000011111", self._enterMobileNumber, "index")
         cl.allureLogs("Entered Mobile Number")
     def clickSubmitButton(self):
         self.clickElement(self._submitButton,"text")

@@ -1,0 +1,8 @@
+[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:66 Locator Type Found: class With Locator Value: android.widget.EditText
+[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:93 Send Text to Element with Locator Type Found: class With Locator Value: android.widget.EditText
+[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:66 Locator Type Found: text With Locator Value: Enter Email
+[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:93 Send Text to Element with Locator Type Found: text With Locator Value: Enter Email
+[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:66 Locator Type Found: text With Locator Value: Enter Address
+[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:93 Send Text to Element with Locator Type Found: text With Locator Value: Enter Address
+[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:68 Locator Type Not Found index With Locator Valueindex
+[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:96 Unable to Send Text on Locator: indexWith Locator Value: 4

@@ -1,3 +1,5 @@
+import allure
+from allure_commons.types import AttachmentType
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.common import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
@@ -91,7 +93,9 @@ class BasePage:
             self.log.info("Send Text to Element with Locator Type Found: " + locatortype + " With Locator Value: " + locatorvalue)
 
         except:
-            self.log.info("Unable to Send Text on Locator: " + locatortype + "With Locator Value:" + locatorvalue)
+            self.log.info("Unable to Send Text on Locator: " + locatortype + "With Locator Value: " + locatorvalue)
+            self.takeScreenshot(locatortype)
+            assert False
 
         return element
 
@@ -121,4 +125,7 @@ class BasePage:
         except:
             self.log.info("Unable save screenshot to the path : " + screenshotPath)
 
+    ## Attach Screenshots to Allure Reports
+    def takeScreenshot(self,text):
+        allure.attach(self.driver.get_screenshot_as_png(),name=text, attachment_type=AttachmentType.PNG)
 
