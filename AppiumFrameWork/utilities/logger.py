@@ -96,7 +96,7 @@ def customLogger():
     logger.setLevel(logging.DEBUG)
 
     # 5.) Create the fileHandler to save the logs in a unique file with the timestamp
-    log_file = f"../reports/log_{timestamp}.log"
+    log_file = f"../reports/LogFiles/log_{timestamp}.log"
     fileHandler = logging.FileHandler(log_file, mode='a')
 
     # 6.) Set the log level for fileHandler

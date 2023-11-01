@@ -1,4 +1,0 @@
-2023-10-30 19:25:12 - BasePage_2023-10-30_19-25-00 - INFO: Send Text to Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
-2023-10-30 19:25:12 - BasePage_2023-10-30_19-25-00 - INFO: Clicked on Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
-2023-10-30 19:25:12 - BasePage_2023-10-30_19-25-00 - INFO: Locator ValueEnter Namenot found
-2023-10-30 19:25:12 - BasePage_2023-10-30_19-25-00 - INFO: Unable to Send Text on Locator: textWith Locator Value:Enter Name

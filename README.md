@@ -101,7 +101,7 @@ pip3 install pytest-ordering
 ```
 pip3 install pytest-rerunfailures
 ```
-###  :package: Pytest Re-Run Terminal Run Command
+###  :package: Pytest Test Run Terminal Command
 - Run your Test Script From the Terminal 
 ```
 python -m pytest test_Pytest_rerun.py

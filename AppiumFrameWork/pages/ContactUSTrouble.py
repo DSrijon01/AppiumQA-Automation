@@ -7,10 +7,10 @@ class ContactUsFormPage(BasePage):
         super().__init__(driver)
         self.driver = driver
 
-        ## Xpath and Index won't work with the given context
+        ## Xpath And Index won't work
         self._contactFromButton = "com.skill2lead.appiumdemo:id/ContactUs" # id
         self._pageTitle = "Contact Us form" # text
-        self._enterName = "Enter Name" # text
+        self._enterName = "android.widget.EditText" # class
         self._enterEmail = "Enter Email" # text
         self._enterAddress = "Enter Address" # text
         self._enterMobileNumber = "Enter Mobile No" # text
@@ -24,7 +24,7 @@ class ContactUsFormPage(BasePage):
         assert element == True
         cl.allureLogs("Verified Page Open")
     def enterName(self):
-        self.sendText("Srijon",self._enterName,"text")
+        self.sendText("Srijon",self._enterName,"class")
         cl.allureLogs("Entered Name")
     def enterEmail(self):
         self.sendText("srijonbiswas17@gmail.com",self._enterEmail,"text")

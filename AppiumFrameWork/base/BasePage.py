@@ -34,7 +34,7 @@ class BasePage:
             element = wait.until(lambda x: x.find_element(AppiumBy.ANDROID_UIAUTOMATOR,'UiSelector().description("%s")' % locatorvalue))
             return element
 
-        ## By description
+        ## By Index Number
         elif locatortype == "index":
             element = wait.until(lambda x: x.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'UiSelector().index("%d")' % int(locatorvalue)))
             return element
