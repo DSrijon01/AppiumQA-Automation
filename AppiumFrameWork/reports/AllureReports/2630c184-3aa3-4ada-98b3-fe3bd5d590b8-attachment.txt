@@ -1,4 +1,0 @@
-[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:66 Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
-[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:79 Clicked on Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/ContactUs
-[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:66 Locator Type Found: text With Locator Value: Contact Us form
-[32mINFO    [0m BasePage_2023-11-01_18-04-54:BasePage.py:109 Send Text to Element with Locator Type Found: text With Locator Value: Contact Us form

@@ -83,7 +83,7 @@ class BasePage:
 
         return element
 
-    ## Send Text
+    ## Send Text - Primary Functionality
     def sendText(self, text, locatorvalue, locatortype):
         element = None
         try:
@@ -94,6 +94,7 @@ class BasePage:
 
         except:
             self.log.info("Unable to Send Text on Locator: " + locatortype + "With Locator Value: " + locatorvalue)
+            ## Failed Test Case ScreenShot Scenario
             self.takeScreenshot(locatortype)
             assert False
 
@@ -106,10 +107,12 @@ class BasePage:
             locatortype = locatortype.lower()
             element = self.getElement(locatorvalue, locatortype)
             element.is_displayed()
-            self.log.info("Send Text to Element with Locator Type Found: " + locatortype + " With Locator Value: " + locatorvalue)
+            self.log.info("Displayed LocatorType: " + locatortype + " With Locator Value: " + locatorvalue)
             return True
         except:
-            self.log.info("Unable to Send Text on Locator: " + locatortype + "With Locator Value:" + locatorvalue)
+            self.log.info("Unable Display LocatorType: " + locatortype + "With Locator Value:" + locatorvalue)
+            ## Failed Test Screenshot Scenario
+            self.takeScreenshot(locatortype)
             return False
 
         return element
@@ -129,3 +132,6 @@ class BasePage:
     def takeScreenshot(self,text):
         allure.attach(self.driver.get_screenshot_as_png(),name=text, attachment_type=AttachmentType.PNG)
 
+    ## Key Code For Phone Button Usages
+    def keyCode(self, value):
+        self.driver.press_keycode(value)

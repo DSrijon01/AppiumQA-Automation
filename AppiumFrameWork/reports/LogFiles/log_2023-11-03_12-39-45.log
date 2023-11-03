@@ -1,0 +1,22 @@
+2023-11-03 12:40:03 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/Login
+2023-11-03 12:40:04 - BasePage_2023-11-03_12-39-45 - INFO: Clicked on Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/Login
+2023-11-03 12:40:05 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: text With Locator Value: Enter Email
+2023-11-03 12:40:05 - BasePage_2023-11-03_12-39-45 - INFO: Send Text to Element with Locator Type Found: text With Locator Value: Enter Email
+2023-11-03 12:40:06 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: text With Locator Value: Enter Password
+2023-11-03 12:40:06 - BasePage_2023-11-03_12-39-45 - INFO: Send Text to Element with Locator Type Found: text With Locator Value: Enter Password
+2023-11-03 12:40:07 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: text With Locator Value: LOGIN
+2023-11-03 12:40:07 - BasePage_2023-11-03_12-39-45 - INFO: Clicked on Element with Locator Type Found: text With Locator Value: LOGIN
+2023-11-03 12:40:32 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Not Found text With Locator Valuetext
+2023-11-03 12:40:32 - BasePage_2023-11-03_12-39-45 - INFO: Unable to Send Text on Locator: textWith Locator Value:Enter Admin
+2023-11-03 12:40:34 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/Login
+2023-11-03 12:40:34 - BasePage_2023-11-03_12-39-45 - INFO: Clicked on Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/Login
+2023-11-03 12:40:35 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: text With Locator Value: Enter Email
+2023-11-03 12:40:35 - BasePage_2023-11-03_12-39-45 - INFO: Send Text to Element with Locator Type Found: text With Locator Value: Enter Email
+2023-11-03 12:40:36 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: text With Locator Value: Enter Password
+2023-11-03 12:40:36 - BasePage_2023-11-03_12-39-45 - INFO: Send Text to Element with Locator Type Found: text With Locator Value: Enter Password
+2023-11-03 12:40:37 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: text With Locator Value: LOGIN
+2023-11-03 12:40:37 - BasePage_2023-11-03_12-39-45 - INFO: Clicked on Element with Locator Type Found: text With Locator Value: LOGIN
+2023-11-03 12:40:38 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Found: text With Locator Value: Enter Admin
+2023-11-03 12:40:38 - BasePage_2023-11-03_12-39-45 - INFO: Send Text to Element with Locator Type Found: text With Locator Value: Enter Admin
+2023-11-03 12:40:38 - BasePage_2023-11-03_12-39-45 - INFO: Locator Type Not Found id With Locator Valueid
+2023-11-03 12:40:38 - BasePage_2023-11-03_12-39-45 - INFO: Unable to Send Text on Locator: idWith Locator Value: 	com.skill2lead.appiumdemo:id/Edt_admin

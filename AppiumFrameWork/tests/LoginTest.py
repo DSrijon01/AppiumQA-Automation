@@ -35,4 +35,5 @@ class LoginTest(unittest.TestCase):
         self.gt.enterEmail()
         self.gt.enterPassword2()
         self.gt.clickLoginButton2()
+        self.gt.verifyWrongCredential()
         self.gt.verifyAdminScreen()
