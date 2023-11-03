@@ -1,0 +1,12 @@
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/Login
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:79 Clicked on Element with Locator Type Found: id With Locator Value: com.skill2lead.appiumdemo:id/Login
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: Enter Email
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:93 Send Text to Element with Locator Type Found: text With Locator Value: Enter Email
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: Enter Password
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:93 Send Text to Element with Locator Type Found: text With Locator Value: Enter Password
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: LOGIN
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:79 Clicked on Element with Locator Type Found: text With Locator Value: LOGIN
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: Wrong Credentials
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:110 Displayed LocatorType: text With Locator Value: Wrong Credentials
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:68 Locator Type Not Found text With Locator Valuetext
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:113 Unable Display LocatorType: textWith Locator Value:Enter Admin

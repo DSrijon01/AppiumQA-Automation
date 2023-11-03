@@ -9,7 +9,8 @@ from AppiumFrameWork.pages.LoginPage import LoginPage
 class LoginTest(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
-    def classObjects(self):
+    def classObjects(self,request):
+        self.driver = request.getfixturevalue("beforeClass")
         self.gt = LoginPage(self.driver)
         self.bp = BasePage(self.driver)
 

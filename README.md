@@ -137,8 +137,15 @@ allure serve allure-results
 pip3 install -r ...\RequirementSetUp.txt
 
 ```
+```
 pip3 install -r C:\Users\BS726\Desktop\AppiumQA-Automation\RequirementSetUp.txt
+```
+###  :package: Running the FrameWork for Allure Reports
+- Running the Framework Based Tests For Allure Reports
+```
+python -m pytest --alluredir=C:\Users\BS726\Desktop\AppiumQA-Automation\AppiumFrameWork\reports\AllureReports -v -s ContactUsFormTest.py
 
+```
 
 ##  :wrench: Development
 If you want to colab please read through. 

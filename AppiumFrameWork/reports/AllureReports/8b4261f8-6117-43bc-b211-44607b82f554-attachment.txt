@@ -1,0 +1,10 @@
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: Enter Name
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:93 Send Text to Element with Locator Type Found: text With Locator Value: Enter Name
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: Enter Email
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:93 Send Text to Element with Locator Type Found: text With Locator Value: Enter Email
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: Enter Address
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:93 Send Text to Element with Locator Type Found: text With Locator Value: Enter Address
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: Enter Mobile No
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:93 Send Text to Element with Locator Type Found: text With Locator Value: Enter Mobile No
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:66 Locator Type Found: text With Locator Value: SUBMIT
+[32mINFO    [0m BasePage_2023-11-03_15-26-40:BasePage.py:79 Clicked on Element with Locator Type Found: text With Locator Value: SUBMIT
