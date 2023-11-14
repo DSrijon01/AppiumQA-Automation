@@ -141,7 +141,7 @@ pip3 install -r ...\RequirementSetUp.txt
 pip3 install -r C:\Users\BS726\Desktop\AppiumQA-Automation\RequirementSetUp.txt
 ```
 ###  :package: Running the FrameWork for Allure Reports
-- Running the Framework Based Tests For Allure Reports
+- Running the Framework Based Tests For Allure Reports (CD to The repository from where you need to run the file from)
 ```
 python -m pytest --alluredir=C:\Users\BS726\Desktop\AppiumQA-Automation\AppiumFrameWork\reports\AllureReports -v -s ContactUsFormTest.py
 
