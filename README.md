@@ -126,7 +126,7 @@ allure generate allure-report -o allure-report-html
 
 ```
 ###  :package: Starting Allure Server to Generate Report
-- Allure Report Serving
+- Allure Report Serving (Give The directory path if there is a custom report generating)
 ```
 allure serve allure-results
 
